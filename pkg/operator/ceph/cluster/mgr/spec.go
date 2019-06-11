@@ -132,7 +132,7 @@ func (c *Cluster) needHttpBindFix() bool {
 
 	// if >= 14.1.1
 	if c.clusterInfo.CephVersion.IsAtLeast(cephver.CephVersion{Major: 14, Minor: 1, Extra: 1}) {
-		needed = false
+		needed = true
 	}
 
 	return needed
