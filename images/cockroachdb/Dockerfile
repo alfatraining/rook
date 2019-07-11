@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM cockroachdb/cockroach:v2.0.2
+FROM cockroachdb/cockroach:v19.1.2
 
 COPY rook /usr/local/bin/
 
